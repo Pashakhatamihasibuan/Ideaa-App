@@ -37,7 +37,7 @@ class EditPage extends StatelessWidget {
             onPressed: () {
               Get.to(ViewData());
             },
-            icon: Icon(
+            icon: const Icon(
               Icons.arrow_back,
               color: Colors.white,
             )),
@@ -131,7 +131,7 @@ class EditPage extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             Image.asset("assets/images/ubahdata.png")

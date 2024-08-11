@@ -91,7 +91,7 @@ class _LoginPageState extends State<LoginPage> {
                     keyboardType: TextInputType.emailAddress,
                     decoration: InputDecoration(
                       labelText: 'Email',
-                      labelStyle: TextStyle(
+                      labelStyle: const TextStyle(
                         color: descriptionColor,
                       ),
                       border: OutlineInputBorder(
@@ -120,7 +120,7 @@ class _LoginPageState extends State<LoginPage> {
                     obscureText: true,
                     decoration: InputDecoration(
                       labelText: 'Password',
-                      labelStyle: TextStyle(
+                      labelStyle: const TextStyle(
                         color: descriptionColor,
                       ),
                       border: OutlineInputBorder(
